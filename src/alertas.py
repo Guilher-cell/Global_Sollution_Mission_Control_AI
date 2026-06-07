@@ -1,9 +1,3 @@
-"""
-src/alertas.py
-Thresholds, lógica de decisão e respostas automatizadas para o MobilitySat.
-TODA a lógica de alerta fica em Python — a IA só interpreta e contextualiza.
-"""
-
 from dataclasses import dataclass, field
 from typing import List
 

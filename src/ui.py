@@ -1,9 +1,3 @@
-"""
-src/ui.py
-Interface CLI estilo Claude Code — MobilitySat · Mission Control AI.
-Usa Rich (painéis) + prompt-toolkit (input editável) + PyFiglet (banner).
-"""
-
 from rich.console import Console
 from rich.panel import Panel
 from rich.text import Text

@@ -1,15 +1,3 @@
-"""
-banner_ascii.py
-Gerador standalone de banner ASCII para o Mission Control AI — MobilitySat.
-Use para experimentar fontes e customizar o visual do projeto.
-
-Uso:
-  python banner_ascii.py              # Exibe o banner padrão
-  python banner_ascii.py -fonts       # Lista todas as fontes disponíveis
-  python banner_ascii.py -font slant  # Testa uma fonte específica
-  python banner_ascii.py -demo        # Demonstra 8 fontes diferentes
-"""
-
 import sys
 import pyfiglet
 from rich.console import Console

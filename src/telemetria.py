@@ -1,9 +1,3 @@
-"""
-src/telemetria.py
-Simulação de telemetria para satélite GNSS (MobilitySat).
-Parâmetros baseados em sistemas reais como GPS Block III e Galileo.
-"""
-
 import random
 import time
 from datetime import datetime

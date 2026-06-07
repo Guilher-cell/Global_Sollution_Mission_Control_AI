@@ -1,10 +1,3 @@
-"""
-src/engine.py
-Motor de análise da Mission Control AI — MobilitySat.
-Integra telemetria + alertas + IA generativa via Ollama Cloud.
-Diferenciais implementados: memória de contexto + few-shot prompting.
-"""
-
 import os
 from ollama import Client
 from dotenv import load_dotenv
