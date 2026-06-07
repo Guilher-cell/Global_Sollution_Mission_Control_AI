@@ -1,0 +1,52 @@
+{
+  "cenarios": [
+    {
+      "nome": "Operação Normal",
+      "descricao": "Todos os parâmetros dentro dos limites operacionais.",
+      "dados": {
+        "drift_oscilador_ns": 1.5,
+        "sincronizacao_pct": 99.2,
+        "integridade_sinal": 97.8,
+        "precisao_efemeride_m": 0.12,
+        "margem_potencia_pct": 78.5
+      },
+      "pergunta_sugerida": "Como está a missão?"
+    },
+    {
+      "nome": "Crise de Potência",
+      "descricao": "Margem de energia crítica — modo degradado ativo.",
+      "dados": {
+        "drift_oscilador_ns": 2.1,
+        "sincronizacao_pct": 98.5,
+        "integridade_sinal": 88.0,
+        "precisao_efemeride_m": 0.20,
+        "margem_potencia_pct": 14.0
+      },
+      "pergunta_sugerida": "O que acontece com as frotas se entrarmos em modo de sobrevivência?"
+    },
+    {
+      "nome": "Drift Crítico do Oscilador",
+      "descricao": "Oscilador atômico com desvio acima do limite crítico.",
+      "dados": {
+        "drift_oscilador_ns": 18.5,
+        "sincronizacao_pct": 97.0,
+        "integridade_sinal": 94.0,
+        "precisao_efemeride_m": 0.30,
+        "margem_potencia_pct": 65.0
+      },
+      "pergunta_sugerida": "Qual o impacto do drift do oscilador na agricultura de precisão?"
+    },
+    {
+      "nome": "Falha Múltipla",
+      "descricao": "Cenário de crise com múltiplos parâmetros críticos simultaneamente.",
+      "dados": {
+        "drift_oscilador_ns": 22.0,
+        "sincronizacao_pct": 72.0,
+        "integridade_sinal": 61.0,
+        "precisao_efemeride_m": 3.5,
+        "margem_potencia_pct": 12.0
+      },
+      "pergunta_sugerida": "Analise a situação e defina as ações prioritárias."
+    }
+  ]
+}
