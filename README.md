@@ -160,7 +160,7 @@ Se o MobilitySat-BR1 operar com 99,5% de disponibilidade por 1 ano:
 
 ##  Vídeo de demonstração
 
-[Assistir demonstração no YouTube](https://www.youtube.com/watch?v=SEU_ID_AQUI)
+[Assistir demonstração no YouTube]((https://www.youtube.com/watch?v=Dcd2rq6pOc8))
 
 
 ---
