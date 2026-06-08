@@ -1,11 +1,11 @@
-# 🚗 Mission Control AI — MobilitySat-BR1
+# Mission Control AI — MobilitySat-BR1
 
 > Sistema de monitoramento operacional de satélite GNSS com análise por IA generativa.
 > FIAP · Ciência da Computação · Global Solution 2026.1 · Prompt Engineering and AI
 
 ---
 
-## 👥 Integrantes
+## Integrantes
 
 | Nome Completo | RM | Turma |
 |---|---|---|
@@ -24,7 +24,7 @@ A cada ciclo, o sistema coleta 5 parâmetros críticos do satélite, avalia thre
 
 ---
 
-## 🎭 Persona atendida
+## Persona atendida
 
 ARIA (Autonomous Response Intelligence for Aerospace) é uma assistente de análise operacional capaz de adaptar suas respostas para três públicos-alvo: Engenheiros de Segmento Espacial, Gestores de Frota Logística e Operadores de Agricultura de Precisão. Além do diagnóstico técnico da missão, a IA traduz os impactos da telemetria para cada contexto de negócio.
 
@@ -86,7 +86,7 @@ python main.py
 
 ---
 
-## ⚙️ Comandos da CLI
+## Comandos da CLI
 
 | Comando | Descrição |
 |---|---|
@@ -100,7 +100,7 @@ python main.py
 
 ---
 
-## 🧠 System Prompt (resumo)
+## System Prompt (resumo)
 
 O system prompt completo está em [`prompts/system_prompt.md`](prompts/system_prompt.md).
 
@@ -122,7 +122,7 @@ Principais características:
 
 ---
 
-## 💼 Proposta de valor / Modelo de negócio
+## Proposta de valor / Modelo de negócio
 
 ### 1. Problema terrestre resolvido
 
@@ -148,7 +148,7 @@ Se o MobilitySat-BR1 operar com 99,5% de disponibilidade por 1 ano:
 
 ---
 
-## ⚠️ Limitações conhecidas
+## Limitações conhecidas
 
 - Não suporta múltiplos satélites simultâneos
 - Não aprende com ciclos anteriores
@@ -165,7 +165,7 @@ Se o MobilitySat-BR1 operar com 99,5% de disponibilidade por 1 ano:
 
 ---
 
-## 📁 Estrutura do projeto
+## Estrutura do projeto
 
 ```
 mission-control-ai/
